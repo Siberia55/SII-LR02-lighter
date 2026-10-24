@@ -1,0 +1,200 @@
+{
+  "test_images": 5,
+  "confidence_threshold": 0.25,
+  "baseline_model": "yolo26n.pt",
+  "finetuned_model": "/mnt/nextcloud_HDD1_500G/lab2-lighter/project/outputs/training/lighter/weights/best.pt",
+  "note": "Исходная модель обучена на COCO и не имеет пользовательского класса lighter. Сравнение количества всех обнаружений не является прямым сравнением качества класса lighter.",
+  "baseline": [
+    {
+      "image": "Screenshot 2026-10-24 135717.png",
+      "detections_count": 2,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7155,
+          "bbox_xyxy": [
+            0.0,
+            70.51,
+            104.66,
+            165.01
+          ]
+        },
+        {
+          "class_id": 67,
+          "class_name": "cell phone",
+          "confidence": 0.4972,
+          "bbox_xyxy": [
+            13.76,
+            72.92,
+            95.66,
+            165.68
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135751.png",
+      "detections_count": 0,
+      "detections": []
+    },
+    {
+      "image": "Screenshot 2026-10-24 135822.png",
+      "detections_count": 1,
+      "detections": [
+        {
+          "class_id": 67,
+          "class_name": "cell phone",
+          "confidence": 0.2536,
+          "bbox_xyxy": [
+            32.79,
+            6.51,
+            85.65,
+            153.67
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135837.png",
+      "detections_count": 4,
+      "detections": [
+        {
+          "class_id": 67,
+          "class_name": "cell phone",
+          "confidence": 0.6431,
+          "bbox_xyxy": [
+            76.19,
+            0.15,
+            115.66,
+            18.99
+          ]
+        },
+        {
+          "class_id": 65,
+          "class_name": "remote",
+          "confidence": 0.5609,
+          "bbox_xyxy": [
+            44.34,
+            81.76,
+            84.67,
+            199.59
+          ]
+        },
+        {
+          "class_id": 65,
+          "class_name": "remote",
+          "confidence": 0.477,
+          "bbox_xyxy": [
+            82.05,
+            81.5,
+            120.13,
+            199.48
+          ]
+        },
+        {
+          "class_id": 65,
+          "class_name": "remote",
+          "confidence": 0.426,
+          "bbox_xyxy": [
+            114.94,
+            81.35,
+            156.15,
+            199.88
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135858.png",
+      "detections_count": 0,
+      "detections": []
+    }
+  ],
+  "finetuned": [
+    {
+      "image": "Screenshot 2026-10-24 135717.png",
+      "detections_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.3989,
+          "bbox_xyxy": [
+            0.0,
+            0.0,
+            99.54,
+            171.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135751.png",
+      "detections_count": 2,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.7661,
+          "bbox_xyxy": [
+            21.73,
+            0.0,
+            230.19,
+            268.0
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.3902,
+          "bbox_xyxy": [
+            93.87,
+            78.54,
+            235.13,
+            267.46
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135822.png",
+      "detections_count": 0,
+      "detections": []
+    },
+    {
+      "image": "Screenshot 2026-10-24 135837.png",
+      "detections_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.5653,
+          "bbox_xyxy": [
+            27.73,
+            0.0,
+            192.13,
+            239.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135858.png",
+      "detections_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.8667,
+          "bbox_xyxy": [
+            5.15,
+            11.34,
+            35.15,
+            195.28
+          ]
+        }
+      ]
+    }
+  ]
+}

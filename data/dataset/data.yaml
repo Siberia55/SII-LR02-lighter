@@ -1,0 +1,5 @@
+path: /mnt/nextcloud_HDD1_500G/lab2-lighter/project/data/dataset
+train: images/train
+val: images/val
+names:
+  0: lighter

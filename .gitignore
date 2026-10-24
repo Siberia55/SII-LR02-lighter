@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.cache
+.idea/
+.vscode/
+*.pt
+*.onnx
+*.engine
+outputs/training/
+
+# Dataset cache
+*.cache
+
+# Generated training artifacts
+outputs/training/
+
+# Duplicate baseline and prediction results
+outputs/baseline_predictions/
+outputs/test_predictions/

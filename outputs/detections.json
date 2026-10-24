@@ -1,0 +1,100 @@
+{
+  "model": "YOLO26n fine-tuned",
+  "weights": "/mnt/nextcloud_HDD1_500G/lab2-lighter/project/outputs/training/lighter/weights/best.pt",
+  "class_names": {
+    "0": "lighter"
+  },
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "images": [
+    {
+      "image": "Screenshot 2026-10-24 135751.png",
+      "width": 266,
+      "height": 268,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.7661,
+          "bbox_xyxy": [
+            21.73,
+            0.0,
+            230.19,
+            268.0
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.3902,
+          "bbox_xyxy": [
+            93.87,
+            78.54,
+            235.13,
+            267.46
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135822.png",
+      "width": 105,
+      "height": 165,
+      "detections": []
+    },
+    {
+      "image": "Screenshot 2026-10-24 135837.png",
+      "width": 197,
+      "height": 239,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.5653,
+          "bbox_xyxy": [
+            27.73,
+            0.0,
+            192.13,
+            239.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135858.png",
+      "width": 40,
+      "height": 202,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.8667,
+          "bbox_xyxy": [
+            5.15,
+            11.34,
+            35.15,
+            195.28
+          ]
+        }
+      ]
+    },
+    {
+      "image": "Screenshot 2026-10-24 135717.png",
+      "width": 122,
+      "height": 171,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "lighter",
+          "confidence": 0.3989,
+          "bbox_xyxy": [
+            0.0,
+            0.0,
+            99.54,
+            171.0
+          ]
+        }
+      ]
+    }
+  ]
+}
